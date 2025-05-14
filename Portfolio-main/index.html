@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/pfp.jpeg" alt="Ujjwal Dhiman" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Mayank Arora">Mayank Arora</h1>
+            <p class="title">Sophomore</p><br>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:mayankarora.cs23@gmail.com" class="contact-link">mayankarora.cs23@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91-9319282374" class="contact-link">+91-9319282374</a>
+            </div>
+
+          </li>
+
+          
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Dehradun, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          
+          <li class="social-item">
+            <a href="https://github.com/mayankarora-cse23" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/mayank-arora-8ab584281/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hello, I’m Mayank Arora, a second-year Computer Science Engineering student with a CGPA of 8.89 at Graphic Era Hill University. I specialize in web development and AI/ML, with hands-on experience building projects like a C++ Library Management System and a real-time YouTube Sentiment Analysis web app using Python and Streamlit. I’m a Pupil on Codeforces (rating 1256)
+            and a 3-star coder on Codechef (rating 1612 ), and I hold AI/ML certifications from Google Cloud.
+
+
+          </p>
+
+          
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Learning frontend and backend development.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Competitive Programming</h4>
+                  
+                <p class="service-item-text">
+                  I give coding contets on variuos competitive programming platforms
+                </p>
+              </div>
+
+            </li>
+
+             <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI/ML Developer</h4>
+                  
+                <p class="service-item-text">
+                I am passionate about AI and Machine Learning and I am continuously advancing my skills in this field.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">IoT</h4>
+
+                <p class="service-item-text">
+                  Learning IoT by making projects
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+         
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients"></section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Saraswati Vihar School</h4>
+
+              <span>2023</span>
+
+              <p class="timeline-text">
+                CBSE - 91.8%
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graphic Era Hill University</h4>
+
+              <span>2024 - Present</span>
+
+              <p class="timeline-text">
+                Bachelor of technology in Computer Science and Engineering
+              </p>
+
+            </li>
+
+            
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">AI/ML</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Competitive Programming</h5>
+                <data value="80">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">IoT</h5>
+                <data value="90">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+        <br>
+        <div class="contact-info">
+          <a class="h33" href="" class="contact-link">Resume Link</a>
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn></button>
+            </li>
+
+            
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://yt-sentiment-analysis-n4f953j9q5mxqxxdxbrzyq.streamlit.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/download.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">YouTube Sentiment Analysis Web App</h3>
+
+                <p class="project-category">Artificial Intelligence and Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/mayankarora-cse23/Library-Management-System">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/lib.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Library Management System</h3>
+
+                <p class="project-category">C/C++</p>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+          <h3 class="h3">Week 1 : Proactive mind and Personal Introduction </h3><br>
+          <p class="about-text">In our very first P.E.S.E. Practical for Employability Skill Enhancement lecture, we explored how engaging in small activities can sharpen quick decision-making and thinking abilities. We also learned simple techniques to train both the left and right brain, such as brainstorming different uses for everyday items like pencils and paper. To conclude, our educator, Mr. Anshuman, demonstrated how to deliver an impactful self-introduction.</p>
+          <h3 class="h3">Week 2 : Active Listening, Teamwork, GD and presentation </h3><br>
+          <p class="about-text">In our second lecture, we were divided into groups of 5–6 students to hold a group discussion and select an idea to pitch and present to the class. During other groups’ presentations, we were tasked with actively listening and asking questions from the perspective of investors.</p>
+          <h3 class="h3">Week 3 : Public Speaking Skills and Team presentation</h3><br>
+          
+          <p class="about-text">In our third lecture, we learned techniques for speaking confidently in public, overcoming stage fright, engaging the audience effectively, and dividing roles within a team</p>
+          
+          <a class="h34" href="" class="contact-link">Video Link</a>
+          <br>
+          <h3 class="h3">Week 4 : Portfolio: Do's and Don'ts </h3><br>
+          <p class="about-text">In the fourth lecture, our educator showcased examples of portfolios and discussed the key do’s and don’ts for creating an effective and impactful portfolio. We were introduced to various platforms for building our own portfolios and also participated in brief one-on-one career objective analyses with the lecturer.</p>
+          <h3 class="h3">Week 5 : Group Discussion </h3><br>
+          <p class="about-text">During the fifth lecture, we participated in a group discussion assessment aimed at strengthening our communication and critical thinking abilities. Working in teams of 7–8 students, we collaboratively discussed assigned topics, which helped us practice articulating our ideas clearly, actively listening to others, and responding constructively within a team environment.<p> 
+                     <a class="h34" href="" class="contact-link">Video Link</a>
+          <br>
+            <h3 class="h3"> Movie Review : The Pursuit of Happyness </h3><br>
+          
+            <p class="about-text">From watching The Pursuit of Happyness, I learned several valuable life lessons. The movie taught me the importance of perseverance and never giving up, even when facing repeated setbacks and hardships. Chris Gardner’s journey showed that success often requires hard work, resilience, and a willingness to keep moving forward despite obstacles. I also learned the value of protecting my dreams and not letting others’ doubts discourage me from pursuing my goals. The film emphasized that life is unpredictable, and accepting the unexpected is crucial for personal growth. Finally, it reinforced that there are no excuses for not trying-opportunities are created through determination, skill-building, and believing in oneself<p>   
+          <a class="h34" href="" class="contact-link">Video Link</a>
+          <br>
+              <h3 class="h3">Personal Profiling: </h3><br>
+          <p class="about-text"><span class="h3">Q1: Career Objective</span> <br>
+            "To secure a challenging position in the field of Computer Science where I can apply my technical skills in programming, AI/ML, and software development to contribute to organizational growth while advancing my own knowledge and expertise"
+            <a class="h34" href="" class="contact-link">Video Answer Link</a>
+            <br><br>
+            <span class="h3">Q2: Why Engineering?</span><br>
+            "I want to be a computer science engineer because the field offers limitless opportunities for innovation, problem-solving, and personal growth. I am fascinated by technology’s potential to solve real-world problems, and I am eager to contribute to advancements in areas like AI and software development, which are shaping the future"
+           <a class="h34" href="" class="contact-link">Video Answer Link</a>
+            <br><br>
+            <span class="h3">Q3: Projects & Internships</span><br>
+            "I developed a command-line Library Management System in C++ that manages book borrowing and returns, user authentication, and admin controls. I also built a real-time YouTube Sentiment Analysis web app using Python, Streamlit, and the YouTube Data API, which classifies and visualizes comment sentiment. These projects enhanced my skills in software development, teamwork, and applying theoretical concepts to real-world applications"
+            <a class="h34" href="" class="contact-link">Video Answer Link</a>
+            <br><br>
+            <span class="h3">Q4: Significant Achievement</span><br>
+            "A significant achievement in my life is becoming a Pupil on Codeforces (rating 1254) and a 3-star coder on Codechef (rating 1612). These milestones reflect my dedication to competitive programming, consistent practice, and problem-solving skills. Achieving these ranks has not only boosted my confidence but also strengthened my technical abilities and perseverance in challenging environments.<br>
+            <a class="h34" href="" class="contact-link">Video Answer Link</a>
+            <br>
+            <span class="h3">Q5: Key Failure & Learning</span><br>
+            "Early in my coding journey, I struggled with competitive programming contests and often failed to solve problems within time limits. By analyzing my mistakes and consistently practicing, I improved my skills and eventually earned a 3-star rating on Codechef and Pupil rank on Codeforces"<br>
+            <a class="h34" href="" class="contact-link">Video Answer Link</a>
+            <br><br>
+            <span class="h3">Q6: Strengths & Examples</span><br>
+            Strong programming skills: Demonstrated through building end-to-end projects in C++, Python, and web technologies.
+
+Problem-solving: District topper in Hindustan Olympiad and competitive programming achievements.
+
+Leadership: As Vice President of the Vedic Science Club, I organized sessions for over 1,400 students
+        <a class="h34" href="" class="contact-link">Video Answer Link</a>
+            <br><br>
+            <span class="h3">Q7: Weaknesses & Improvement</span><br>
+            "I sometimes focus too much on perfecting details, which can slow my progress. To improve, I set clear deadlines and prioritize tasks, ensuring steady progress without sacrificing quality."
+            <a class="h34" href="" class="contact-link">Video Answer Link</a>
+            <br><br>
+            <span class="h3">Q8: Toughest Challenge & Overcoming It</span><br>
+            
+            "Transitioning from school to university was challenging due to increased academic and extracurricular demands. I overcame this by developing better time management skills and seeking guidance from mentors and peers."
+            <a class="h34" href="" class="contact-link">Video Answer Link</a>
+            <br><br>
+            <span class="h3">Q9: Interests Beyond Academics</span><br>
+            I am passionate about chess, having secured 2nd place in a district-level tournament, and I actively participate in club activities, including leading sessions on mind development as Vice President of the Vedic Science Club
+            <a class="h34" href="" class="contact-link">Video Answer Link</a>
+            <br><br>
+            <span class="h3">Q10: Passionate About</span><br>
+            "I am passionate about artificial intelligence and machine learning, and I am continually advancing my skills in this field."
+            <a class="h34" href="" class="contact-link">Video Answer Link</a>
+            <br><br>
+            <span class="h3">Q11: Describe Yourself in 5 Lines</span><br>
+            Second-year Computer Science Engineering student with a CGPA of 8.89.
+
+            Skilled in C++, Python, AI/ML and web development.
+
+Pupil on Codeforces and 3-star coder on Codechef.
+
+Vice President of the Vedic Science Club.
+
+Driven by curiosity, continuous learning, and a passion for technology
+<a class="h34" href="" class="contact-link">Video Answer Link</a>           
+<br><br>
+            <span class="h3">Q12: Ideal Team Members</span><br>
+            "I enjoy working with collaborative, open-minded, and proactive individuals who are eager to learn and contribute ideas."
+            <a class="h34" href="" class="contact-link">Video Answer Link</a>
+            <br><br>
+            <span class="h3">Q13: Least Preferred Colleagues & Handling a Difficult Senior</span><br>
+            "I prefer to avoid working with uncooperative or negative individuals. If they are my seniors, I remain respectful, focus on clear communication, and seek common ground to maintain a positive working relationship."
+            <a class="h34" href="" class="contact-link">Video Answer Link</a>
+            <br><br>
+            <span class="h3">Q14: Expectations from First Job (Prioritized)</span><br>
+            Opportunities to learn and grow technically.
+
+Supportive and collaborative work environment.
+
+Challenging projects that encourage innovation.
+
+Constructive feedback and mentorship.
+<a class="h34" href="" class="contact-link">Video Answer Link</a>            
+<br><br>
+            <span class="h3">Q15: Recent Dissatisfaction</span><br>
+            "While I made significant progress, I feel I could have participated in more hackathons and contributed to open-source projects. I am working on being more proactive in seeking such opportunities.
+"
+<a class="h34" href="" class="contact-link">Video Answer Link</a>
+            <br><br>
+            <span class="h3">Q16: Verbal Communication Skills & Improvement</span><br>
+            "I rate my communication skills as good, especially after leading sessions for large groups as Vice President of the Vedic Science Club. I continue to improve by engaging in group discussions, presentations, and seeking feedback from peers.
+"
+<a class="h34" href="" class="contact-link">Video Answer Link</a>
+            <br><br>
+            <span class="h3">Q17: Role Model</span><br>
+            "My role model is Sundar Pichai, whose journey from a technical background to leading Google inspires me to combine technical expertise with leadership and vision."
+            <a class="h34" href="" class="contact-link">Video Answer Link</a>
+            <br><br>
+            <span class="h3">Q18: Friends & Their Impact</span><br>
+            "My friends motivate me to set higher goals, share resources and ideas, and provide constructive feedback, helping me stay focused and ambitious."
+            <a class="h34" href="" class="contact-link">Video Answer Link</a>
+            <br>
+            <span class="h3">Q19: Leadership Qualities & Example</span><br>
+            I possess organizational, communication, and motivational skills. As Vice President of the Vedic Science Club, I led sessions for over 1,400 students and coordinated club activities, fostering teamwork and engagement
+            <a class="h34" href="" class="contact-link">Video Answer Link</a>
+            <br><br>
+            <span class="h3">Q20: Final Self-Introduction</span><br>
+            I am Mayank Arora, a second-year Computer Science Engineering student at Graphic Era Hill University with a CGPA of 8.89. I am skilled in C++, Python, and web development, and have practical experience through projects like a Library Management System and a YouTube Sentiment Analysis app. As a Pupil on Codeforces and 3-star coder on Codechef, I am passionate about AI/ML and continuous learning. I also serve as Vice President of the Vedic Science Club, where I conduct sessions on mind development for students
+        <a class="h34" href="" class="contact-link">Video Answer Link</a>
+          </section>
+        
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="video">
+
+        <header>
+          <h2 class="h2 article-title">Video</h2>
+        </header>
+
+        
+
+        <section class="contact-form">
+
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://drive.google.com/file/d/1isTeAvUcPOuelXYQzUpsz9tFMflk2uWN/view?usp=sharing">
+  
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+  
+                  <img src="./assets/images/ps.jpg" alt="orizon" loading="lazy">
+                </figure>
+  
+                <h3 class="project-title">Public Speaking</h3>
+  
+  
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://drive.google.com/file/d/1VaLDOkHHkarYXheSj8FopqzBrz0sLLAS/view?usp=sharing">
+  
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+  
+                  <img src="./assets/images/gd.png" alt="orizon" loading="lazy">
+                </figure>
+  
+                <h3 class="project-title">Group Discussion</h3>
+  
+                
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://drive.google.com/file/d/1VaLDOkHHkarYXheSj8FopqzBrz0sLLAS/view?usp=sharing">
+  
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+  
+                  <img src="./assets/images/gd.png" alt="orizon" loading="lazy">
+                </figure>
+  
+                <h3 class="project-title">Group Discussion 2</h3>
+  
+                
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+  
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+  
+                  <img src="./assets/images/pres.svg" alt="orizon" loading="lazy">
+                </figure>
+  
+                <h3 class="project-title">Presentation</h3>
+  
+                
+              </a>
+            </li>
+          </ul>
+          
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
